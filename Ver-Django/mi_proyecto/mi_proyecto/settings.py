@@ -127,10 +127,11 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+#https://discord.com/developers/applications
+DISCORD_TOKEN = 'TOKEN'
 
-DISCORD_TOKEN = 'MTMwNDkxNDg2NDMxNzE0MTAyMg.GgGlXH.5fdhW-tooWKJ_FM63Oni5xBUp6H6zfzUZgv9Qg'
-
-TOGETHERAI_API_KEY = '48ca127b1ab1532bc75685f84c487492fcbe8c899f0248eb49183dcc4550a0f9'
+#https://api.together.xyz
+TOGETHERAI_API_KEY = 'TOGETHERAI_API_KEY'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
